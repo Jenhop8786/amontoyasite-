@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Angeline Montoya</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <%= favicon_link_tag asset_path('angesite.png') %>
+  </head>
+
+  <body>
+    <header class="header">
+        <div class="topbar container">
+            <div class="site-name">
+            </div>
+            <nav class="menu">
+                <a href="#">About</a>
+                <a href="#">Properties</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="search-form-container">
+        <form action="#" class="search-form container">
+            <select>
+                <option value="city" selected>City</option>
+                <option value="second">Albuquerque</option>
+                <option value="third">Santa Fe</option>
+                <option value="fourth">Corrales</option>
+                <option value="fifth">Rio Rancho</option>
+                <option value="six">Espanola</option>
+            </select>
+            <select>
+                <option selected>Rooms</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3+</option>
+            </select>
+            <input type="text" placeholder="Search by City or Name...">
+            <input type="submit" class="button" value="Search">
+        </form>
+    </div>
+
+    <section class="container">
+        <h2 class="text-center">Properties Sold</h2>
+        <div class="properties-list">
+            <div class="first property featured">
+                <img src="santafe.jpg" alt="property image">
+                <div class="card">
+                    <h3 class="property-name">Unique Santa Fe Home</h3>
+                    <p class="description">Etiam turpis mauris, sollicitudin nec nunc ut, consequat molestie sapien. Etiam turpis mauris, sollicitudin nec nunc u.</p>
+                    <p class="price">
+                        Price: <span>$3,000,000</span>
+                    </p>
+                    <!-- <a href="#" class="button">Read More</a> -->
+                </div><!--.card-->
+            </div><!--.property-->
+
+            <div class="second property featured">
+                <img src="img/property2.jpg" alt="property image">
+                <div class="card">
+                    <h3 class="property-name">Taos Cottage</h3>
+                    <p class="description">Etiam turpis mauris, sollicitudin nec nunc ut, consequat molestie sapien. Etiam turpis mauris, sollicitudin nec nunc u.</p>
+                    <p class="price">
+                        Price: <span>$3,000,000</span>
+                    </p>
+                    <!-- <a href="#" class="button">Read More</a> -->
+                </div><!--.card-->
+            </div><!--.property-->
+
+            <div class="property">
+                <img src="img/property3.jpg" alt="property image">
+                <div class="card">
+                    <h3 class="property-name">Elephant Butte Lake Home</h3>
+                    <p class="description">Etiam turpis mauris, sollicitudin nec nunc ut, consequat molestie sapien. Etiam turpis mauris, sollicitudin nec nunc u.</p>
+                    <p class="price">
+                        Price: <span>$3,000,000</span>
+                    </p>
+                    <!-- <a href="#" class="button">Read More</a> -->
+                </div><!--.card-->
+            </div><!--.property-->
+
+            <div class="property">
+                <img src="img/property4.jpg" alt="property image">
+                <div class="card">
+                    <h3 class="property-name">Downtown Albuquerque Condo</h3>
+                    <p class="description">Etiam turpis mauris, sollicitudin nec nunc ut, consequat molestie sapien. Etiam turpis mauris, sollicitudin nec nunc u.</p>
+                    <p class="price">
+                        Price: <span>$3,000,000</span>
+                    </p>
+                    <!-- <a href="#" class="button">Read More</a> -->
+                </div><!--.card-->
+            </div><!--.property-->
+
+            <div class="property">
+                <img src="img/property5.jpg" alt="property image">
+                <div class="card">
+                    <h3 class="property-name">Nambe House in the Rolling Hills</h3>
+                    <p class="description">Etiam turpis mauris, sollicitudin nec nunc ut, consequat molestie sapien. Etiam turpis mauris, sollicitudin nec nunc u.</p>
+                    <p class="price">
+                        Price: <span>$3,000,000</span>
+                    </p>
+                    <!-- <a href="#" class="button">Read More</a> -->
+                </div><!--.card-->
+            </div><!--.property-->
+
+            <div class="property">
+                <img src="img/property3.jpg" alt="property image">
+                <div class="card">
+                    <h3 class="property-name">Taos River Home</h3>
+                    <p class="description">Beautiful home set in a location you find in your dreams. Built in 2003 this cottage style home offers views and tranquility sitting along the Taos River.</p>
+                    <p class="price">
+                        Price: <span>$3,000,000</span>
+                    </p>
+                    <!-- <a href="#" class="button">Read More</a> -->
+                </div><!--.card-->
+            </div><!--.property-->
+        </div><!--.properties-list-->
+    </section>
+
+    <div class="about-us container">
+        <div class="image">
+            <img src="img/aboutme.jpg" class="image">
+        </div>
+        <div class="about-us-content">
+            <h2>What you can expect:</h2>
+            <p>Being raised in Santa Fe since I was 5, I consider myself a native to New Mexico. I know Santa Fe, quite intimately and since moving to Rio Rancho recently, I have made sure to get to know my new city just the same. My main goal as your agent is to bring value into your lives. That doesn't happen when you are physically looking at homes and purchase one, it starts when you click on "Contact" and have that first initial conversation with me. I will bring value in the form of knowledge and make sure that I will do what I can to make sure you get what you want but most importantly what you need. You may hear things you don't want to at times but I am here purely looking out for your best interests.</p>
+
+            <p> I look foward to delivering your dreams </p>
+              <p><em> - Angeline </em></p>
+        </div>
+    </div><!--.about-us-->
+
+<!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="widget">
+                <h3>Contact Me</h3>
+                <p>Cell- 555-555-5555</p>
+                <p>Email - myagent@agent.com</p>
+            </div>
+            <div class="widget">
+                <h3>Navigation</h3>
+                <nav class="navigation">
+                    <a href="#">About</a>
+                    <a href="#">Properties</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+
+            <div class="widget">
+                <h3>Properties Sold</h3>
+                <div class="properties-container">
+                    <div class="property-info">
+                        <div class="property-image">
+                            <img src="img/property2.jpg">
+                        </div><!--.property-image-->
+                        <div class="info-text">
+                            <p>Property 1</p>
+                            <p>$2,000,000</p>
+                        </div><!--.info-text-->
+                    </div><!--.property-info-->
+                    <div class="property-info">
+                        <div class="property-image">
+                            <img src="img/property3.jpg">
+                        </div><!--.property-image-->
+                        <div class="info-text">
+                            <p>Property 2</p>
+                            <p>$2,000,000</p>
+                        </div><!--.info-text-->
+                    </div><!--.property-info-->
+                    <div class="property-info">
+                        <div class="property-image">
+                            <img src="img/property4.jpg">
+                        </div><!--.property-image-->
+                        <div class="info-text">
+                            <p>Property 3</p>
+                            <p>$2,000,000</p>
+                        </div><!--.info-text-->
+                    </div><!--.property-info-->
+                    <div class="property-info">
+                        <div class="property-image">
+                            <img src="img/property5.jpg">
+                        </div><!--.property-image-->
+                        <div class="info-text">
+                            <p>Property 4</p>
+                            <p>$2,000,000</p>
+                        </div><!--.info-text-->
+                    </div><!--.property-info-->
+                </div><!--.property-container-->
+            </div>
+        </div>
+
+      <p class="copyright">Developed and Designed by <a href="https://jenelynhopkins.com/">J.Hopkins</a> All Rights Reserved, 2019 &copy;</p>
+    </footer>
+
+    <%= yield %>
+  </body>
+</html>
