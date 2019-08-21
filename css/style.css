@@ -101,7 +101,11 @@ h3 {
 
 
 .search-form-container {
+<<<<<<< HEAD
      background-image: url(../img/0.jpeg);
+=======
+     background-image: url(../img/logo.jpg);
+>>>>>>> 5196c3c3feb305d0c9a4101a9c1254a8bcfc93d0
      background-size: cover;
      background-position: center center;
      padding: 5rem 0;
