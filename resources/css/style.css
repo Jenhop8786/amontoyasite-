@@ -300,7 +300,7 @@ header {
 /* FEATURES */
 /* ----------------------------------------------- */
 
-.section-features .long-copy {
+.section-resources .long-copy {
     margin-bottom: 30px;
 }
 
@@ -309,29 +309,29 @@ header {
 /* MEALS */
 /* ----------------------------------------------- */
 
-.section-meals {
+.section-companies {
     padding: 0;
 }
 
-.meals-showcase {
+.companies-showcase {
     list-style: none;
     width: 100%;
 }
 
-.meals-showcase li {
+.companies-showcase li {
     display: block;
     float: left;
     width: 25%;
 }
 
-.meal-photo {
+.company-photo {
     width: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #000;
 }
 
-.meal-photo img {
+.company-photo img {
     opacity: 0.7;
     width: 100%;
     height: auto;
@@ -342,7 +342,7 @@ header {
     transition: transform 0.5s, opacity 0.5s;
 }
 
-.meal-photo img:hover {
+.company-photo img:hover {
     opacity: 1;
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
