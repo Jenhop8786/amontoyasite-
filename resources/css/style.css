@@ -85,7 +85,7 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #e67e22;
+    background-color: #dab324;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -109,7 +109,7 @@ h2:after {
 .icon-big {
     font-size: 350%;
     display: block;
-    color: #e67e22;
+    color: #dab324;
     margin-bottom: 10px;
 }
 
@@ -117,7 +117,7 @@ h2:after {
     display: inline-block;
     width: 30px;
     text-align: center;
-    color: #e67e22;
+    color: #dab324;
     font-size: 120%;
     margin-right: 10px;
 
@@ -131,10 +131,10 @@ h2:after {
 
 a:link,
 a:visited {
-    color: #e67e22;
+    color: #dab324;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
+    border-bottom: 1px solid #dab324;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
