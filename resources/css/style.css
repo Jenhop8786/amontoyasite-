@@ -317,7 +317,7 @@ header {
     list-style: none;
     width: 100%;
 }
- 
+
 .companies-showcase li {
     display: block;
     float: left;
@@ -328,7 +328,7 @@ header {
     width: 100%;
     margin: 0;
     overflow: hidden;
-    background-color: #000;
+    background-color:#FFFFFF;
 }
 
 .company-photo img {
