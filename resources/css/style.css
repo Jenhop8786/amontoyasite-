@@ -22,8 +22,8 @@ body {
   background-position: center;
   height: 100vh;
   background-attachment: fixed;
-    /* background-color: #fff;
-    color: #555; */
+    /* background-color: #fff; */
+    color: #FFFFFF;
     font-family: 'Cinzel', serif;
     font-weight: 300;
     font-size: 20px;
@@ -202,14 +202,14 @@ input[type=submit]:active {
 /* HEADER */
 /* ----------------------------------------------- */
 
-header {
+/* header {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
-  }
+  } */
 
 .hero-text-box {
     position: absolute;
@@ -240,7 +240,7 @@ header {
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 55px;
+    margin-top: 20px;
 }
 
 .main-nav li {
@@ -325,22 +325,27 @@ header {
 }
 
 .companies-showcase li {
-    display: block;
+    /* display: block; */
     float: left;
-    width: 25%;
+    width: 33.33%;
+    padding: 5px;
 }
 
 .company-photo {
     width: 100%;
     margin: 0;
     overflow: hidden;
-    background-color: #3c8106;
+    background-color: none;
 }
 
 .company-photo img {
     opacity: 0.7;
-    width: 100%;
-    height: auto;
+    /* width: 100%;
+    height: auto; */
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 5px
+    width: 150px;
     -webkit-transform: scale(1.15);
     -ms-transform: scale(1.15);
     transform: scale(1.15);
@@ -358,42 +363,43 @@ header {
 
 
 /* ----------------------------------------------- */
-/* HOW IT WORKS SECTION */
+/* About Me Section */
 /* ----------------------------------------------- */
 
-.section-steps {
-    background-color: #f4f4f4;
+.section-me {
+    background-color: none;
 }
 
-.steps-box {
+.me-box {
     margin-top: 30px;
 }
 
 
-.steps-box:first-child {
+.me-box:first-child {
     text-align: right;
     padding-right: 3%;
 }
 
-.steps-box:last-child {
+.me-box:last-child {
     text-align: left;
     padding-left: 3%;
     margin-top: 70px;
 }
 
-.app-screen {
-    width: 40%;
+.profile-pic {
+    width: 80%;
+    /* border-radius: 50%; */
 }
 
-.works-step {
+.about-me {
     margin-bottom: 50px;
 }
 
-.works-step:last-of-type {
+.about-me:last-of-type {
     margin-bottom: 80px;
 }
 
-.works-step div {
+.about-me div {
     color: #e67e22;
     font-size: 150%;
     height: 54px;
