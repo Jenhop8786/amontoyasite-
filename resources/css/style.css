@@ -16,19 +16,15 @@ Orange color: #e67e22
 
 html,
 body {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  background-attachment: fixed;
-    /* background-color: #fff; */
-    color: #FFFFFF;
+
+    color: #dab324;
     font-family: 'Cinzel', serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
 }
 
 .clearfix {zoom: 1;}
@@ -176,7 +172,7 @@ input[type=submit] {
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid #dab324;
-    color: #fff;
+    color: #dab324;
 }
 
 .btn:hover,
@@ -202,14 +198,14 @@ input[type=submit]:active {
 /* HEADER */
 /* ----------------------------------------------- */
 
-/* header {
+header {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
-  } */
+  }
 
 .hero-text-box {
     position: absolute;
@@ -310,13 +306,13 @@ input[type=submit]:active {
     margin-bottom: 30px;
 }
 
-
 /* ----------------------------------------------- */
 /* COMPANIES */
 /* ----------------------------------------------- */
 
 .section-companies {
-    padding: 0;
+    padding: 1%;
+    margin-bottom: 10px;
 }
 
 .companies-showcase {
@@ -325,9 +321,9 @@ input[type=submit]:active {
 }
 
 .companies-showcase li {
-    /* display: block; */
+    display: block;
     float: left;
-    width: 33.33%;
+    width: 25%;
     padding: 5px;
 }
 
@@ -335,13 +331,15 @@ input[type=submit]:active {
     width: 100%;
     margin: 0;
     overflow: hidden;
-    background-color: none;
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+;
 }
 
 .company-photo img {
     opacity: 0.7;
-    /* width: 100%;
-    height: auto; */
+    width: 100%;
+    height: auto;
     border: 1px solid #fff;
     border-radius: 4px;
     padding: 5px
@@ -367,7 +365,9 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 .section-me {
-    background-color: none;
+  /* background-color: #63d471;
+  background-image: linear-gradient(315deg, #63d471 0%, #233329 74%); */
+
 }
 
 .me-box {
@@ -389,6 +389,9 @@ input[type=submit]:active {
 .profile-pic {
     width: 80%;
     border-radius: 50%;
+    border: 3px solid #dab324;
+    padding: 5px;
+    /* width: 150px; */
 }
 
 .about-me {
