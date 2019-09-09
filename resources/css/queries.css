@@ -19,14 +19,36 @@
        width: 80%;
        margin-left: 10%;
    }
-
-   
 }
 
 
 /* For small phone to small tablet screen 481px to 767px  */
 @media only screen and (max-width: 767px) {
+   body { font-size: 16px; }
+   section { padding: 30px 0; }
 
+   .row,
+   .hero-text-box { padding: 0 4%; }
+   .col { width: 100%; }
+   .main-nav { display: none; }
+
+   .h1 { font-size: 180%}
+   .h2 { font-size: 150%}
+
+   .long-copy {
+     width: 100;
+     margin-left: 0%;
+   }
+
+   .me-box:first-child { text-align: center;}
+
+   .about-me div {
+       height: 40px;
+       width: 40px;
+       margin-right: 15px;
+       padding: 4px;
+       font-size: 120%;
+   }
 }
 
 
