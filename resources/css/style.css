@@ -224,13 +224,6 @@ header {
     margin-top: 20px;
 }
 
-.logo-black {
-    display: none;
-    height: 50px;
-    width: auto;
-    float: left;
-    margin: 5px 0;
-}
 
 /* Main navi */
 .main-nav {
@@ -258,7 +251,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    color: #dab324;
+  border-bottom: 2px solid #e67e22;
 }
 
 
