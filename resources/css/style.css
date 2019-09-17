@@ -37,6 +37,7 @@ body {
 .row {
     max-width: 1140px;
     margin: 0 auto;
+    /* text-align: center; */
 }
 
 section {
@@ -484,7 +485,7 @@ header {
     display: inline-block;
     text-align: center;
     margin-right: 25px;
-    /* float: left; */
+    float: left;
     padding: 5px;
 }
 
