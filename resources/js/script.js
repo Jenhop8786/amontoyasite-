@@ -14,13 +14,13 @@ $(document).ready(function() {
 
 
     /* Scroll on buttons */
-    $('.js--scroll-to-plans').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000);
-    });
-
     $('.js--scroll-to-resources').click(function () {
        $('html, body').animate({scrollTop: $('.js--section-resources').offset().top}, 1000);
     });
+    //
+    // $('.js--scroll-to-resources').click(function () {
+    //    $('html, body').animate({scrollTop: $('.js--section-resources').offset().top}, 1000);
+    // });
 
 
     /* Navigation scroll */
